@@ -5,17 +5,22 @@
   1. Create a PUBLIC repository named exactly: harshcans   (github.com/harshcans/harshcans)
   2. Add this file as README.md and commit it to the main branch.
   3. Search this file for "EDIT" and replace those few values, then delete this comment block.
+
+  The animated banner (capsule-render) and typing line (readme-typing-svg) are free
+  third-party services. If either is ever down, the alt text is shown instead.
 -->
 
 <div align="center">
 
-# Harsh Singh
+<!-- Animated header: waving gradient banner with fade-in name -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:2563EB&height=210&section=header&text=Harsh%20Singh&fontSize=54&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Full-Stack%20Developer&descSize=20&descAlignY=58" width="100%" alt="Harsh Singh, Full-Stack Developer" />
 
-### Full-Stack Developer
-
-**React · Next.js · Node.js · MongoDB**
-
-I build full-stack web apps with secure authentication, real-time features and clean APIs, and ship them to production.
+<!-- Typing animation: rotates through three lines, adapts to light and dark mode -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3200&pause=1100&color=60A5FA&center=true&vCenter=true&width=640&height=44&lines=React+%C2%B7+Next.js+%C2%B7+Node.js+%C2%B7+MongoDB;Secure+auth+%C2%B7+Real-time+apps+%C2%B7+Clean+APIs;Building+and+shipping+to+production">
+  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3200&pause=1100&color=2563EB&center=true&vCenter=true&width=640&height=44&lines=React+%C2%B7+Next.js+%C2%B7+Node.js+%C2%B7+MongoDB;Secure+auth+%C2%B7+Real-time+apps+%C2%B7+Clean+APIs;Building+and+shipping+to+production">
+  <img alt="React, Next.js, Node.js, MongoDB. Secure auth, real-time apps, clean APIs." src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3200&pause=1100&color=2563EB&center=true&vCenter=true&width=640&height=44&lines=React+%C2%B7+Next.js+%C2%B7+Node.js+%C2%B7+MongoDB;Secure+auth+%C2%B7+Real-time+apps+%C2%B7+Clean+APIs;Building+and+shipping+to+production">
+</picture>
 
 <br>
 
@@ -171,22 +176,56 @@ sequenceDiagram
 
 ## Tech stack
 
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=js,react,nextjs,tailwind,vite,nodejs,express,mongodb,firebase,supabase,postman,git,vercel,netlify&perline=7&theme=dark">
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=js,react,nextjs,tailwind,vite,nodejs,express,mongodb,firebase,supabase,postman,git,vercel,netlify&perline=7&theme=light">
-  <img alt="Tech stack: JavaScript, React, Next.js, Tailwind CSS, Vite, Node.js, Express, MongoDB, Firebase, Supabase, Postman, Git, Vercel, Netlify" src="https://skillicons.dev/icons?i=js,react,nextjs,tailwind,vite,nodejs,express,mongodb,firebase,supabase,postman,git,vercel,netlify&perline=7&theme=dark">
-</picture>
-</div>
+<table>
+<tr>
+<td width="150"><b>Front end</b></td>
+<td>
 
-<br>
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 
-| | |
-|---|---|
-| **Front end** | React · Next.js · Tailwind CSS · Vite · JavaScript (ES6+) · HTML/CSS |
-| **Back end** | Node.js · Express · REST APIs · Socket.IO · JWT · bcrypt · Nodemailer |
-| **Data and services** | MongoDB (Mongoose) · Firebase (Auth, Firestore) · Supabase · Stripe |
-| **Tooling and deploy** | Git · GitHub · Postman · Vercel · Netlify |
+</td>
+</tr>
+<tr>
+<td><b>Back end</b></td>
+<td>
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td><b>Data and services</b></td>
+<td>
+
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td><b>Tooling and deploy</b></td>
+<td>
+
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white)
+
+</td>
+</tr>
+</table>
+
+<sub>Also used: HTML/CSS · Mongoose · bcrypt · Nodemailer · pdf.js · Tesseract.js</sub>
 
 <br>
 
@@ -204,3 +243,10 @@ sequenceDiagram
 Happy to talk about full-stack projects, open source or opportunities.
 
 [Portfolio](https://harshsingh.netlify.app) · [LinkedIn](https://www.linkedin.com/in/YOUR-HANDLE) · [Email](mailto:YOUR-EMAIL) <!-- EDIT: same LinkedIn URL and email as above -->
+
+<div align="center">
+
+<!-- Animated footer to match the header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:2563EB&height=90&section=footer" width="100%" alt="" />
+
+</div>
